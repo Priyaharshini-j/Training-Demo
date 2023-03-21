@@ -12,6 +12,7 @@ namespace CallBy
             Console.WriteLine("After call " + (a + b));
 
             ValueAdd(a,b);
+            Console.WriteLine("After "+ (a+b));
         }
         static void Addition(ref int a, ref int b)
         {
